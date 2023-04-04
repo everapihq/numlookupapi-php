@@ -33,9 +33,9 @@ echo $numlookupapi->status();
 
 
 ```php
-echo $numlookupapi->validate('+12069220880', [
+var_dump($numlookupapi->validate('2069220880', [
     'country_code' => 'US'
-]);
+]));
 ```
 
 
