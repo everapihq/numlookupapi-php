@@ -62,7 +62,7 @@ class NumlookupapiClient
      */
     public function validate(string $phoneNumber, ?array $query = [])
     {
-        return $this->call('validate/' + $phoneNumber, $query);
+        return $this->call('validate/' . $phoneNumber, $query);
     }
 
     /**
